@@ -13,4 +13,4 @@ class Addres(models.Model):
 
 
     def __str__(self):
-        return f'{self.company_id}, {self.country} -> {self.city} -> {self.street}'
+        return f'{self.company}, {self.country} -> {self.city} -> {self.street}'

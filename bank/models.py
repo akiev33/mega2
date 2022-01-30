@@ -8,5 +8,5 @@ class Bank_account(models.Model):
 
     
     def __str__(self):
-        return f'{self.money}$ -> {self.company_id}'
+        return f'{self.money}$ -> {self.company}'
         

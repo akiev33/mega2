@@ -5,7 +5,7 @@ from django.db import models
 class Leader(models.Model):
     first_name = models.CharField(max_length=50)
     last_name = models.CharField(max_length=50)
-    fatherland = models.CharField(max_length=50, null=True, blank=True)
+    patronymic = models.CharField(max_length=50, null=True, blank=True)
     company = models.OneToOneField('company.Company', on_delete=models.CASCADE, primary_key=True)
 
 
